@@ -8,8 +8,7 @@ My current user configurations that are applied for AstroNvim.
 - [Org-mode](https://github.com/nvim-orgmode/orgmode): OrgMode Clone
 - [Trouble](https://github.com/folke/trouble.nvim): List diagnostics problems
 - [Doom-One](https://github.com/NTBBloodbath/doom-one.nvim): Really Nice Theme
-
-
+- [Peek](https://github.com/toppair/peek.nvim): Markdown Preview
 
 ## Supporting Language Servers (LSP)
 
@@ -21,6 +20,7 @@ for the language.  My local platform is using python 3.11.1, as well as the the 
 | Python   | pyright       | black, isort  | flake8, pylint | debugpy       |
 | Rust     | rust-analyzer | rustfmt       | clippy         | codelldb      |
 | yaml     | yamlls        |               |                |               |
+| lua      | sumneko_lua   | stylua        |                |               |
 
 ## Treesitter (TS) Languages
 
@@ -40,4 +40,9 @@ AstroNvim supports ensuring the appropriate configurations are installed.
   <tr><td>toml</td><td>typescript</td><td>yaml</td><td></td><td></td></tr>
 </tbody>
 </table>
+
+## Heirline
+
+Used AstroNvim's implementation of NVChad's heirline configuration documented [here](https://astronvim.github.io/Recipes/status).
+
 
