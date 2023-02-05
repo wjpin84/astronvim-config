@@ -1,1 +1,1 @@
-return "doom-one"
+return "tokyonight-storm"

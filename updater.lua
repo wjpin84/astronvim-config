@@ -1,3 +1,5 @@
+-- Supporting the update of AstroNvim
+-- Using the current defaults for a stable environment
 return {
   remote = "origin", -- remote to use
   channel = "stable", -- "stable" or "nightly"

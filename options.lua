@@ -1,3 +1,5 @@
+-- Setting global variables for NeoVim.  You can verify these global variables are
+-- set, or what other global variables you can change by `echo g:`
 return {
   opt = {
     -- set to true or false etc.
@@ -16,6 +18,6 @@ return {
     status_diagnostics_enabled = false, -- enable diagnostics in statusline
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
-    heirline_bufferline = false, -- enable new heirline based bufferline (requires :PackerSync after changing)
+    heirline_bufferline = true, -- enable new heirline based bufferline (requires :PackerSync after changing)
   },
 }

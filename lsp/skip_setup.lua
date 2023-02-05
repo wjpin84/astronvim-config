@@ -1,3 +1,1 @@
-return {
---  "rust_analyzer",
-}
+return {}

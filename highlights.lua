@@ -26,5 +26,5 @@ return {
       TelescopeResultsNormal = { bg = bg },
       TelescopeResultsTitle = { fg = bg, bg = bg },
     }
-  end
+  end,
 }

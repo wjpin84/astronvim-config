@@ -1,5 +1,8 @@
+-- Installs the appropriate treesitter languages to support
+-- syntax highlighting.
+-- Use :TSModuleInfo to find other support languages
+-- Treesitter officialy documentation is located at https://tree-sitter.github.io/tree-sitter/#language-bindings
 return {
-  -- overrides `require("treesitter").setup(...)`
   ensure_installed = {
     "awk",
     "bash",
