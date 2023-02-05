@@ -4,13 +4,14 @@
 -- Notes:
 --   Change the default mapping to point to <Leader>lc
 --   Mnemonic l (LSP), c (comment)
-local M = function()
-  vim.g.doge_mapping = "<Leader>lc"
-  vim.g.doge_doc_standard_python = "google"
-  vim.g.doge_python_settings = {
-    single_quotes = 0,
-    omit_redundant_param_types = 0,
-  }
-end
-
-return M
+return {
+  run = ":call doge#install()",
+  setup = function()
+    vim.doge_mapping = "<Leader>lc"
+    vim.g.doge_doc_standard_python = "google"
+    vim.g.doge_python_settings = {
+      single_quotes = 0,
+      omit_redundant_param_types = 0,
+    }
+  end,
+}

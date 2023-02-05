@@ -10,11 +10,11 @@ return function(config) -- overrides `require("null-ls").setup(config)`
 
   -- Check supported formatters and linters
   config.sources = {
-    -- Set python formatter
+    -- Python configurations
+    -- Formatter
     null_ls.builtins.formatting.black.with { extra_args = { "--fast" } },
     null_ls.builtins.formatting.isort,
-
-    -- Set python diagnostics
+    -- Diagnostics
     null_ls.builtins.diagnostics.flake8.with { extra_args = { "--max-line-length", "120", "--ignore=D100" } },
     null_ls.builtins.diagnostics.pylint.with { extra_args = { "--max-line-length", "120", "--disable=C0114" } },
   }

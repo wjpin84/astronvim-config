@@ -1,9 +1,7 @@
 -- CMP Source Priorities
--- modify here the priorties of default cmp sources
--- higher value == higher priority
--- The value can also be set to a boolean for disabling default sources
--- false == disabled
--- true == 1000
+-- Prioritizing the suggestions for auto-completion.  The highest value
+-- comes first.  You can use boolean values to turn on and off.  The
+-- default integer value for true == 1000.
 return {
   nvim_lsp = 1000,
   luasnip = 750,

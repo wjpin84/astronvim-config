@@ -3,6 +3,9 @@
 -- as well a beneficial Todo trouble toggle to help locate all special
 -- comments in your project.  This has all the default settings but more
 -- special words can be added when necessary.
-return function()
-  require("todo-comments").setup {}
-end
+return {
+  requires = "nvim-lua/plenary.nvim",
+  config = function()
+    require("todo-comments").setup {}
+  end,
+}

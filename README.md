@@ -2,13 +2,32 @@
 
 My current user configurations that are applied for AstroNvim.
 
+## Requirements
+
+- Neovim 0.8+
+- ripgrep - live grep telescope search (<leader>fw)
+- lazygit - git ui toggle terminal (<leader>tl or <leader>gg)
+- go DiskUsage() - disk usage toggle terminal (<leader>tu)
+- bottom - process viewer toggle terminal (<leader>tt)
+- Python - python repl toggle terminal (<leader>tp)
+- Node - node repl toggle terminal (<leader>tn)
+
+## Installation
+
+```bash
+git clone git@github.com/AstroNvim/AstroNvim ~/.config/nvim
+git clone git@github.com/wjpin84/astronvim-config ~/.config/nvim/lua/user
+nvim +PackerSync
+```
+
 ## Additional Plugins
 
 - [Vim-Doge](https://github.sas.com/kkoomen/vim-doge): DocString Generator
 - [Trouble](https://github.com/folke/trouble.nvim): List diagnostics problems
 - [Peek](https://github.com/toppair/peek.nvim): Markdown Preview
-- [Crates](https://github.com/saecki/crates.nvim): Rust plugin supporting Cargo.toml and the dependencies
 - [TodoComments](https://github.com/folke/todo-comments.nvim): Supports highlighting comments such as TODO/PERF/HACK/NOTE/etc
+- [RustTools](https://github.com/simrat39/rust-tools.nvim): Support rust langague and type hinting 
+- [Crates](https://github.com/saecki/crates.nvim): Support rust language with Cargo.toml and dependencies management
 
 ## Themes
 
@@ -33,8 +52,6 @@ for the language.  My local platform is using python 3.11.1, as well as the the 
 | Lua      | sumneko_lua   | stylua        |                    |               | true   |
 | Bash     | bashls        | beautysh      |                    |               | true   |
 | Markdown |               | prettier      | markdownlint       |               | false  |
-
-### TODO: Add support for jenkins and json 
 
 ## Treesitter (TS) Languages
 

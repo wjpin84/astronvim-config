@@ -14,9 +14,6 @@ mappings.n = {
   ["<leader>bc"] = { "<cmd>BufferLinePickClose<cr>", desc = "Pick to close" },
   ["<leader>bj"] = { "<cmd>BufferLinePick<cr>", desc = "Pick to jump" },
   ["<leader>bt"] = { "<cmd>BufferLineSortByTabs<cr>", desc = "Sort by tabs" },
-
-  -- TODO: Setup ToggleTerm k9s
-  -- TODO: Setup ToggleTerm jb
 }
 
 return mappings
