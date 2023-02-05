@@ -1,5 +1,6 @@
+-- https://astronvim.github.io/Recipes/status
 -- Heirline is a configuration copied from the AstroNvim documentation to support
--- the statusline to mimic NVChad.  https://astronvim.github.io/Recipes/status
+-- the statusline to mimic NVChad.
 
 return function(config)
         -- the first element of the configuration table is the statusline

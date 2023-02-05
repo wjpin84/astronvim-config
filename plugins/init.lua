@@ -19,6 +19,8 @@ return {
   -- verify spelling or it will default to default_theme.
   -- Also can test themes by using :colorscheme <name of theme>.  If you use
   -- tab after the :colorscheme then a list of themes should appear.
+  -- If themes need to be configured, create a new directory plugins/themes
+  -- and mimic the functionality of the above add-on plugins.
   ["folke/tokyonight.nvim"] = {},
   ["sainnhe/gruvbox-material"] = {},
   ["dracula/vim"] = {},
